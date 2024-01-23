@@ -1,0 +1,65 @@
+main {
+  flex-grow: 0;
+}
+
+.location {
+  display: flex;
+  gap: 30px;
+  height: 326px;
+  margin-bottom: 32px;
+}
+
+.location__content {
+  width: 730px;
+  padding: 88px 95px;
+  background-image: url('../images/locations/desktop/hero-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.location__content-title {
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.location__adress {
+  display: flex;
+}
+
+address {
+  font-style: normal;
+  width: 255px;
+
+}
+
+
+.address__title {
+  font-weight: 700;
+}
+
+.address__text {
+  color: #333136;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.contact {
+  width: 255px;
+
+}
+
+.canada-location {}
+
+.canada-location__iframe {
+  border-radius: 15px;
+  width: 350px;
+  height: 326px;
+}
+
+.location__bottom {
+  margin-bottom: 380px;
+}

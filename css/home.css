@@ -1,0 +1,217 @@
+/* HERO START */
+
+.hero {
+  text-align: left;
+  margin-bottom: 0;
+  background-image: none;
+  position: relative;
+  padding: 0;
+}
+
+.hero__big-img {
+  position: absolute;
+  z-index: -1;
+  top: 320px;
+  left: -150px;
+}
+
+.hero__container {
+  width: 1110px;
+  border-radius: 15px;
+  margin-bottom: 120px;
+  background-image: url("../images/home/desktop/big-img-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 145px 95px;
+  color: var(--white);
+}
+
+
+.hero__title {
+  width: 540px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.hero__text {
+  width: 445px;
+  margin-bottom: 50px;
+}
+
+.hero__btn {
+
+  padding: 18px 25px 16px 24px;
+}
+
+.hero__btn:active {
+  border-radius: 8px;
+  background-color: var(--secondary-primary);
+  color: var(--white);
+}
+
+
+
+/* HERO END */
+
+
+/* PROMO START */
+.promo__container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 160px;
+  width: 100%;
+}
+
+.promo__item {
+  width: 540px;
+  height: 640px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/home/desktop/image-web-design-large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo__item:active {
+  background-image: linear-gradient(rgba(231, 129, 107, 0.5), rgba(231, 129, 107, 0.5)), url('../images/home/desktop/image-web-design-large.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo__item-title {
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.promo__link span {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.promo__link {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  color: var(--white);
+}
+
+.promo__wrapper {
+  width: 540px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.appdesign {
+  width: 100%;
+  height: 308px;
+  border-radius: 15px;
+  padding: 100px 143px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/home/desktop/image-app-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appdesign:active {
+
+  background-image: linear-gradient(rgba(231, 129, 107, 0.5), rgba(231, 129, 107, 0.5)), url('../images/home/desktop/image-app-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.appdesign span {
+  padding-left: 27.5px;
+}
+
+
+.promo__title {
+  width: 370px;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.graphic {
+  width: 100%;
+  height: 308px;
+  border-radius: 15px;
+  flex-shrink: 0;
+  padding: 107px 90px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/home/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graphic:active {
+  background-image: linear-gradient(rgba(231, 129, 107, 0.5), rgba(231, 129, 107, 0.5)), url('../images/home/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graphic span {
+  padding-left: 82px;
+}
+
+/* PROMO END */
+
+
+
+
+/* FEATURES START */
+.features-big-img {
+  position: absolute;
+  z-index: -1;
+  top: 124px;
+  right: -150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features__container {
+  position: relative;
+  margin-bottom: 380px;
+}
+
+.features__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.features__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features__item-title {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.features__item-text {
+  width: 350px;
+  text-align: center;
+}
+
+/* FEATURES END */
+
+
+.footer__head-btn:active {
+  border-radius: 8px;
+  background-color: var(--secondary-primary);
+  color: var(--white);
+}

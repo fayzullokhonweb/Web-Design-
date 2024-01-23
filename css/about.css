@@ -1,0 +1,130 @@
+/* HERO START */
+.hero__container {
+  display: flex;
+  width: 100%;
+  background-image: none;
+  margin-bottom: 160px;
+  position: relative;
+}
+
+.hero__big-img {
+  position: absolute;
+  z-index: -1;
+  top: 320px;
+  left: -150px;
+}
+
+.hero__content {
+  width: 634px;
+  color: var(--white);
+  background-image: url('../images/about/desktop/hero-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 135px 87px 135px 95px;
+}
+
+.hero__content-title {
+  margin-bottom: 32px;
+}
+
+.hero__content-text {
+  width: 458px;
+}
+
+.hero__right-img {
+  z-index: -1;
+  border-radius: 0 15px 15px 0;
+}
+
+/* HERO END */
+
+
+/* FEATURES START */
+.features__container {
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.features__images {
+  border-radius: 15px 0 0 15px;
+  background: #E7816B;
+}
+
+.features__content {
+  border-radius: 0 15px 15px 0;
+  padding: 154px 96px 154px 94px;
+  background-image: url('../images/about/desktop/features-img.png');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.features__content-title {
+  margin-bottom: 24px;
+  color: var(--primary);
+}
+
+/* FEATURES END */
+
+
+/* LOCATION LINKS START */
+.location {}
+
+.location__container {
+  margin-bottom: 160px;
+}
+
+.container {}
+
+.location__list {
+  display: flex;
+  gap: 30px;
+}
+
+.location__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+.location__item-img {}
+
+.location__item-title {
+  margin-bottom: 32px;
+}
+
+.location__item-link {
+  border-radius: 8px;
+  background-color: var(--primary);
+  padding: 18px 18.5px 16px 18.5px;
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.location__item-link:active {
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--secondary-primary);
+}
+
+/* LOCATION LINKS END */
+
+.bottom {
+  background-image: url('../images/about/desktop/features-bottom.png');
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  margin-bottom: 220px;
+  border-radius: 15px 0 0 15px;
+}
+
+.bottom-img {
+  border-radius: 0 15px 15px 0;
+}
